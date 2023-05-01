@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Walter+Turncoat');
+
+html {
+  box-sizing: border-box;
+  font-family: 'Walter Turncoat', cursive;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  max-height: 100vh;
+  background-color: #edd5b1;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #edd5b1 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin: 1rem auto 2rem auto;
+}
+
+form {
+  margin-top: 1rem;
+}
+
+button {
+  font-family: inherit;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  text-align: left;
+}
+
+thead {
+  font-size: 1.4rem;
+}
+
+thead tr {
+  height: 50px;
+}
+
+tbody tr {
+  height: 40px;
+}
+
+tbody td {
+  font-size: 1.25rem;
+}
+
+.container {
+  max-width: 600px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.form-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.input-field {
+  background-color: #edd5b1;
+  font-family: inherit;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  border: none;
+  border-bottom: 2px solid;
+  outline: none;
+}
+
+.input-text {
+  min-width: 30%;
+  max-width: 40%;
+}
+
+.input-number {
+  max-width: 15%;
+  text-align: center;
+}
+
+.btn {
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 120%;
+  border: 2px solid #000;
+  width: 2rem;
+}
+
+.add-btn {
+  width: 3rem;
+}
+
+.clr-btn {
+  border: 2px dashed;
+}
+
+.next-btn {
+  margin: 1.5rem auto;
+  padding: 0.5rem 0;
+  width: 100%;
+}
+
+.del-btn {
+  padding: 0;
+  font-weight: 500;
+  border: 1px solid grey;
+}
+
+.actors-list {
+  clear: both;
+  max-width: 425px;
+}
+
+.del-btn-cell {
+  text-align: right;
+}
+
+.active {
+  background-color: #9dab69;
+}
+
+.active2 {
+  background-color: red;
+}
